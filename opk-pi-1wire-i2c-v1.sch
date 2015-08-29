@@ -3606,6 +3606,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="50.8" y1="63.5" x2="49.784" y2="63.5" width="0.1524" layer="91"/>
 <label x="43.688" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="52.07" x2="-0.508" y2="52.07" width="0.1524" layer="91"/>
+<label x="0" y="52.832" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="15-RX" class="0">
 <segment>
@@ -3646,13 +3651,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="25.908" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <label x="17.78" y="40.64" size="1.778" layer="95"/>
 <pinref part="SV1" gate="G$1" pin="8"/>
-</segment>
-</net>
-<net name="23" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="52.07" x2="-0.508" y2="52.07" width="0.1524" layer="91"/>
-<label x="0" y="52.832" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
