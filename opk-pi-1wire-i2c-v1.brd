@@ -176,6 +176,7 @@
 <text x="8.6" y="50.214" size="1.4224" layer="22" font="vector" rot="MR180">OPK-1-WIRE-v1</text>
 <text x="18.984" y="10.722" size="1.1" layer="21" rot="R180">RJ11</text>
 <text x="18.344" y="43.712" size="1.1" layer="21" rot="R180">RJ45</text>
+<text x="24.626" y="17.13" size="1.4224" layer="22" font="vector" rot="MR90">1-wire --&gt; GPIO #4</text>
 </plain>
 <libraries>
 <library name="con-lstb">
